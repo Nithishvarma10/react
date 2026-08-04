@@ -71,3 +71,9 @@ p {
   color: #cbd5e1;
   font-size: 18px;
 }
+.warning {
+  color: #ff4d4d;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 15px 0;
+}

@@ -8,9 +8,11 @@ function App() {
   const [count, setCount] = useState(0)
   
 const add=()=>{
+  if(count<20)
   setCount(count+1);
 }
 const dec=()=>{
+  if(count>0)
   setCount(count-1);
 }
 
@@ -26,6 +28,10 @@ const dec=()=>{
       onClick={dec}
       >decrease</button>
       </div>
+      {
+        count==20 && (<p className='warning'>⚠️the limit is 20</p>)}
+       { count==0 && (<p className='warning'>⚠️the limit is 0</p>)}
+      
       <p>the counter is updating {count}</p>
     </div>
   )
