@@ -10,4 +10,5 @@ const reacter = React.createElement(
 
 createRoot(document.getElementById('root')).render(
   reacter
+   
 )
