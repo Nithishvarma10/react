@@ -1,16 +1,56 @@
-# React + Vite
+# 🔐 Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive, and user-friendly **Password Generator** built using **React.js** and **Tailwind CSS**. The application allows users to generate random passwords based on their preferred password length and character options.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [View Password Generator](http://localhost:5173/)
 
-## React Compiler
+> **Note:** The demo URL runs locally using Vite. Start the application with `npm run dev` to access it.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔐 Generate random passwords
+- 📏 Select password length from **6 to 30 characters**
+- 🔢 Option to include numbers
+- 🔣 Option to include special characters
+- 📋 Copy generated password to clipboard
+- ⚡ Automatically regenerate password when options change
+- 🎨 Clean and responsive user interface
+- ⚛️ Built with React Hooks
+- 💨 Styled using Tailwind CSS
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **JavaScript**
+- **Tailwind CSS**
+- **Vite**
+- **HTML5**
+- **CSS3**
+
+---
+
+## 📂 Project Structure
+
+```text
+PasswordGenerator/
+│
+├── public/
+│
+├── src/
+│   ├── App.jsx
+│   ├── App.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── package-lock.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+└── README.md
