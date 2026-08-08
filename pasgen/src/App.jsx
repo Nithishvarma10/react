@@ -23,6 +23,11 @@ for(let i=0;i<length;i++){
 }
 setpass(pass);
 },[length,number,character]);
+const passref=useRef();
+const copypass=()=>{
+  passref.current.select();
+ navigator.clipboard.writeText(passwor);
+}
 useEffect(()=>{
 passgen()
 },[passgen]);
@@ -51,13 +56,15 @@ passgen()
 
             placeholder="Password"
             value={passwor}
+            ref={passref}
             readOnly
 
             className="flex-1 bg-white text-orange-500 text-4xl px-6 py-4 outline-none"
 
           />
 
-          <button className="bg-blue-600 hover:bg-blue-700 text-white text-3xl px-8 transition">
+          <button className="bg-blue-600 hover:bg-blue-700 text-white text-3xl px-8 transition"
+          onClick={copypass}>
 
             copy
 
