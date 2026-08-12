@@ -1,16 +1,47 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Currency Converter** built using **React.js** and **Tailwind CSS**. The application allows users to convert currencies using up-to-date exchange rates fetched from a currency exchange API.
 
-Currently, two official plugins are available:
+## 🚀 Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+👉 [Currency Converter Demo](http://localhost:5173/)
 
-## React Compiler
+> **Note:** The demo URL runs locally using Vite. Start the project with `npm run dev` and open the URL above.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 💱 Convert between different currencies
+- 🌍 Supports multiple international currencies
+- 🔄 Swap From and To currencies
+- 📊 Fetches exchange rates from an external API
+- 💰 Enter any amount for conversion
+- ⚡ Dynamic currency selection
+- 📱 Responsive user interface
+- 🎨 Modern UI built with Tailwind CSS
+- ⚛️ Built using React Hooks
+- 🔁 Automatically updates available currencies based on the selected source currency
+
+---
+
+## 🛠️ Technologies Used
+
+- **React.js**
+- **JavaScript**
+- **Tailwind CSS**
+- **Vite**
+- **HTML5**
+- **CSS3**
+- **REST API**
+
+---
+
+## 🌐 API Used
+
+This project uses the **Fawaz Ahmed Currency API** to retrieve exchange rates.
+
+Example API endpoint:
+
+```text
+https://cdn.jsdelivr.net/npm/@fawazahmed0/currency-api@latest/v1/currencies/usd.json
